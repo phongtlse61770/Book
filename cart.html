@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Giỏ Hàng</title>
+<link rel="stylesheet" type="text/css" href="header.css" />
+<link rel="stylesheet" type="text/css" href="PhongWorkSpace/css/OrderButtonArea.css">
+<link rel="stylesheet" type="text/css" href="PhongWorkSpace/css/buttons.css">
+    <style>
+.mid {
+	width:92%;
+	float:left;
+}
+.mid img {
+	width:150px;
+	height:200px;	
+}
+.cart-title {
+	font-size:23px;
+	color:#09F;
+	text-align:center;
+	font-weight:bold;	
+}
+.cart-table {
+	margin:20px 0px 0px 300px;
+}
+.tr1 {
+	border-top:1px solid #CCC;	
+}
+</style>
+<script src="allfunction.js"></script>
+</head>
+
+<body onload="loginLogout(); cart()">
+<div class="header">
+	<a href="book.html"><img src="images/logo.png" class="logo" /></a>
+    <div class="search-group">
+        <input type="text" placeholder="Tìm kiếm sách, tác giả hay nhà xuất bản mong muốn..." class="search-text" />
+        <input type="button" value="TÌM" class="search-button"/>
+    </div>
+    <div class="account" id="login-logout">
+    	
+    </div>
+    <div class="cart">
+    	<a href="cart.html"><img src="images/cart.png" width="25" height="20" /></</a><br />
+        <span><a href="cart.html">Giỏ hàng</a></span>
+    </div>
+</div>
+<div class="map">
+	<a href="book.html">Trang Chủ</a>
+</div>
+<div class="body">
+	<div class="ad">
+    	abc
+    </div>
+    <div class="mid">
+    	<div class="cart-title">
+        	<span>Giỏ Hàng Của Bạn</span>
+        </div>
+        <div class="cart-table" id="d">
+        
+        </div>
+    </div>
+    <!--Phong start-->
+    <div id="OrderButtonContainer">
+
+    </div>
+    <!--Phong end-->
+    <div class="ad">
+    	abc
+    </div>
+    <p style="font-size:14px; margin-left:20px;">Designed by Ngô Quang Duy<br/>&nbsp Edit by Trần Lợi Phong<br/>Copyright &copy; 2015-2016. All rights reserved.</p>
+</div>
+</body>
+</html>

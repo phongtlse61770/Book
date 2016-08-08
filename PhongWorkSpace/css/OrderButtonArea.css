@@ -1,0 +1,23 @@
+/*Color scheme*/
+/*#EEFEFA*/
+/*#D4FAF4*/
+/*#A2E3EF*/
+/*#788C96*/
+/*#C7C2A1*/
+/*#E2E9C9*/
+
+#OrderButtonContainer{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#OrderButtonContainer > form > input{
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    font-weight: 500;
+    font-family: Consolas;
+    font-size: large;
+
+}
