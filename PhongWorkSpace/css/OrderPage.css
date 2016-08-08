@@ -6,7 +6,13 @@
 /*#C7C2A1*/
 /*#E2E9C9*/
 
+textarea{
+    resize: none;
+}
+
 .orderDiv{
+
+    padding-left: 50px;
     font-family: Consolas;
     overflow: hidden;
 }
@@ -14,8 +20,12 @@
 .cartTableContainer{
     text-align: center;
     float: left;
-
 }
+
+.cartTableContainer table{
+    border-right: 1px solid #0099FF;
+}
+
 
 .extraOrderInputContainer{
     text-align: center;
@@ -29,16 +39,39 @@
 
 .extraOrderInput{
     float: left;
-    border-left: thick solid #C7C2A1;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+    text-align: left;
+    padding-left: 20px;
+    /*margin-right: -99999px;*/
+    /*padding-right: 99999px;*/
 }
+
+.extraOrderInput td:first-child{
+    padding-right: 10px;
+}
+
+.extraOrderInput td:nth-child(2) *{
+    width: 90%;
+}
+
+.extraOrderInput td:nth-child(2) select{
+    width: calc(90% + 6px);
+}
+
+
+
 
 .clearDiv{
     clear: both;
 }
 
 .LastTableRow > td{
-    border-top: solid 1px #C7C2A1
+    border-top: solid 1px #C7C2A1;
+    background: #D4FAF4;
+    color: #0099FF;
+}
+
+
+.centerTableRow{
+    text-align: center;
 }
 
